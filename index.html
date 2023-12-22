@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+<body>
+  <div id="game-container">
+    <div id="message"></div>
+    <div id='question'></div>
+    <div id='options' ></div>
+    <button id="nextBtn"></button>
+    
+    <script src="levelOne.js"></script>;
+
+   </div>
+   <script>
+    // Asigna el manejador de clic directamente aquí si es necesario
+    document.getElementById('nextBtn').onclick = () => {
+        avanzarNivel();
+    };
+
+    function avanzarNivel() {
+        nivelTwo();
+    }
+</script>
+</body>
+</html>

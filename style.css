@@ -1,0 +1,36 @@
+body{
+    background-image: url('https://wepik.com/api/image/ai/9ae5020f-e53d-4162-bb7b-5b8d58ffab5c?thumb=1');
+    background-size: cover; 
+    /*background-position: center;  Centra la imagen */
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: Arial,  sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 300px;
+    margin-right: 300px;
+    opacity: 0,1;
+}
+#questios{
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+
+}
+button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.answer-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px;
+    text-align: center;
+  }
